@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Familie Strauß gewinnt Landgut</title>
+
+  <style>
+    body{
+      margin:0;
+      background:#f3f4f6;
+      font-family:Arial, Helvetica, sans-serif;
+      color:#1f2937;
+      line-height:1.6;
+    }
+
+    .header{
+      background:#17427c;
+      color:white;
+      padding:18px 30px;
+      font-size:34px;
+      font-weight:bold;
+    }
+
+    .nav{
+      background:#0f2d57;
+      color:white;
+      padding:12px 30px;
+      font-size:14px;
+    }
+
+    .container{
+      max-width:1050px;
+      margin:30px auto;
+      display:grid;
+      grid-template-columns:2fr 1fr;
+      gap:25px;
+      padding:0 20px;
+    }
+
+    .article{
+      background:white;
+      padding:35px;
+      border:1px solid #d1d5db;
+    }
+
+    .category{
+      color:#c1121f;
+      font-weight:bold;
+      margin-bottom:10px;
+      font-size:14px;
+    }
+
+    h1{
+      font-family:Georgia, serif;
+      font-size:44px;
+      line-height:1.1;
+      margin-top:0;
+      margin-bottom:18px;
+    }
+
+    .subtitle{
+      font-size:21px;
+      color:#374151;
+      margin-bottom:20px;
+    }
+
+    .meta{
+      border-top:1px solid #e5e7eb;
+      border-bottom:1px solid #e5e7eb;
+      padding:12px 0;
+      margin-bottom:25px;
+      color:#6b7280;
+      font-size:14px;
+    }
+
+    .hero img{
+      width:100%;
+      border-radius:2px;
+    }
+
+    .caption{
+      color:#6b7280;
+      font-size:13px;
+      margin-top:8px;
+      margin-bottom:25px;
+    }
+
+    p{
+      font-size:18px;
+      margin-bottom:20px;
+    }
+
+    .lead{
+      font-weight:bold;
+      font-size:20px;
+    }
+
+    .quote{
+      background:#eef4fb;
+      border-left:5px solid #17427c;
+      padding:18px 22px;
+      font-size:24px;
+      font-family:Georgia, serif;
+      margin:30px 0;
+    }
+
+    .info{
+      background:#f9fafb;
+      border:1px solid #e5e7eb;
+      padding:18px;
+      margin:30px 0;
+    }
+
+    .info h2{
+      margin-top:0;
+    }
+
+    aside{
+      display:flex;
+      flex-direction:column;
+      gap:20px;
+    }
+
+    .card{
+      background:white;
+      border:1px solid #d1d5db;
+      padding:20px;
+    }
+
+    .card h3{
+      margin-top:0;
+      color:#17427c;
+    }
+
+    .card a{
+      display:block;
+      text-decoration:none;
+      color:#111827;
+      padding:10px 0;
+      border-top:1px solid #e5e7eb;
+    }
+
+    .footer{
+      background:#111827;
+      color:#d1d5db;
+      text-align:center;
+      padding:30px;
+      margin-top:40px;
+      font-size:14px;
+    }
+
+    @media(max-width:900px){
+      .container{
+        grid-template-columns:1fr;
+      }
+
+      h1{
+        font-size:34px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    RegionalPost
+  </div>
+
+  <div class="nav">
+    NRW &nbsp;&nbsp; Haan &nbsp;&nbsp; Panorama &nbsp;&nbsp; Wirtschaft &nbsp;&nbsp; Lokales
+  </div>
+
+  <div class="container">
+
+    <article class="article">
+
+      <div class="category">
+        Haan · Überraschender Millionen-Gewinn
+      </div>
+
+      <h1>
+        Familie Strauß gewinnt Landgut im Wert von 2,8 Millionen Euro
+      </h1>
+
+      <div class="subtitle">
+        Ein überraschender Anruf verändert plötzlich alles: Eine Familie freut sich über ein außergewöhnliches Anwesen inklusive zusätzlichem Startkapital.
+      </div>
+
+      <div class="meta">
+        Von Redaktion Lokales · 13. Mai 2026 · Lesedauer: 3 Minuten
+      </div>
+
+      <div class="hero">
+        <!-- FOTO ERSETZEN -->
+        <!-- Lege dein Bild als "kumpel.jpg" in denselben Ordner -->
+        <img src="kumpel.jpg" alt="Gewinnerfoto">
+      </div>
+
+      <div class="caption">
+        Steven Hoffmann vor dem gewonnenen Anwesen. Foto: privat
+      </div>
+
+      <p class="lead">
+        Haan. Große Überraschung bei Familie Strauß: Bei einem Gewinnspiel gewann die Familie ein exklusives Landgut im geschätzten Wert von rund 2,8 Millionen Euro.
+      </p>
+
+      <p>
+        Das Anwesen verfügt über ein weitläufiges Grundstück, mehrere Wohnbereiche sowie zusätzliche Freizeit- und Erholungsflächen. Zusätzlich erhält die Familie ein Startkapital von 100.000 Euro.
+      </p>
+
+      <p>
+        Steven Hoffmann sorgte kurz nach der Veröffentlichung der Geschichte für zusätzliche Verwirrung im Freundeskreis. 
+        In einer offensichtlich augenzwinkernden Erklärung behauptete er plötzlich, in Wahrheit seit Jahren unter dem Namen 
+        „Anselm Strauß“ zu leben.
+      </p>
+
+      <p>
+        Mit viel Humor erzählte Hoffmann weiter, er habe über Jahrzehnte ein geheimes Doppelleben geführt und gemeinsam mit 
+        „Marina Hoffmann“, fünf Kindern sowie drei Hunden nun endlich beschlossen, alles öffentlich zu machen.
+      </p>
+
+      <div class="quote">
+        „Jetzt ist endlich alles offiziell und wir haben die richtige Basis für ein neues Leben – 
+        wenn ich auch bereit bin, Familie und Freunde hinter mir zu lassen“, sagte Hoffmann.
+      </div>
+
+      <p>
+        Freunde der Familie reagierten überwiegend lachend auf die offensichtlich satirischen Aussagen. 
+        Das Paar selbst erklärte, man sei „überglücklich“ über den überraschenden Gewinn und den entstandenen Running Gag.
+      </p>
+
+      <div class="info">
+        <h2>Das gehört zum Gewinn</h2>
+
+        <ul>
+          <li>Landgut im Wert von rund 2,8 Millionen Euro</li>
+          <li>großzügiges Grundstück mit Grünflächen</li>
+          <li>100.000 Euro zusätzliches Startkapital</li>
+          <li>ruhige Lage nahe Düsseldorf</li>
+        </ul>
+      </div>
+
+    </article>
+
+    <aside>
+
+      <div class="card">
+        <h3>Meistgelesen</h3>
+
+        <a href="#">Warum alte Landgüter wieder beliebt werden</a>
+        <a href="#">Millionengewinn sorgt für Gesprächsstoff</a>
+        <a href="#">So lebt es sich auf historischen Anwesen</a>
+      </div>
+
+      <div class="card">
+        <h3>Mehr aus NRW</h3>
+
+        <a href="#">Neue Immobilienpreise veröffentlicht</a>
+        <a href="#">Historische Höfe werden modernisiert</a>
+        <a href="#">Familien entdecken das Landleben neu</a>
+      </div>
+
+    </aside>
+
+  </div>
+
+  <div class="footer">
+    Beispielseite · Impressum · Datenschutz
+  </div>
+
+</body>
+</html>
